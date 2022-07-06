@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    margin: 0;
+}
+
+.background-fhoto-part1 {
+    background-image: url(images/donation9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 0 auto;
+    margin-top: 0;
+}
+
+.part1 {
+    text-align: center;
+}
+
+.part1 h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.part1 p {
+    color: white;
+    text-align: justify;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+
+section {
+    margin-top: 100px;
+}
+
+.donation-part {
+    text-align: center;
+}
+
+.donation-part h1 {
+    font-size: 50px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container>div {
+    color: black;
+    width: 100px;
+    margin: 10px;
+    margin-left: 100px;
+    line-height: 75px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#box {
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    color: #8b0000;
+    border: 2px solid #8b0000;
+    background-color: #DCDCDC;
+}
+
+.flex-box1 {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    padding-top: 40px;
+    margin-left: 200px;
+    margin-top: 100px;
+    background-color: antiquewhite;
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+}
+
+.flex-box2 {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    padding-top: 40px;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: aquamarine;
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+}
+
+.flex-box3 {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    padding-top: 40px;
+    margin-left: 100px;
+    margin-top: 100px;
+    background-color: bisque;
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+}
+
+.flex-container2 {
+    display: flex;
+    text-align: center;
+}
