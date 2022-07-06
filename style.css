@@ -32,7 +32,7 @@ body {
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    margin-top: 20px;
+    margin-top: 100px;
     padding: 10px 20px;
     color: white;
     font-weight: 700;
@@ -114,4 +114,35 @@ section {
 .flex-container2 {
     display: flex;
     text-align: center;
+}
+
+.updates {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form-part {
+    display: flex;
+    width: 300px;
+    height: 80px;
+    background-color: bisque;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 45%;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+footer {
+    background-color: black;
+    margin-top: 70px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#color {
+    font-family: 'Satisfy', cursive;
+    color: #8b0000;
 }
